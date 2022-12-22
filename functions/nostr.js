@@ -13,6 +13,4 @@ let val = {
         'content-type': 'application/json;charset=UTF-8',
       }
     });
-  });
-
 }
