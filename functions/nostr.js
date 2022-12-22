@@ -8,10 +8,6 @@ export function onRequest(context) {
 //  }
 //};
     const json = JSON.stringify(val);
-    return new Response(json, {
-      headers: {
-        'content-type': 'application/json;charset=UTF-8',
-      }
-    });
+    return new Response(json);
   });
 }
